@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.h-main img {
+    width: 100%;
+}
+
+.container {
+    width: 95%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.k-main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 70px 0;
+
+}
+
+.card {
+    background-color: #F9F8F8;
+    border: 0;
+    width: 335.09px;
+    height: 483px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 30px;
+    margin-top: 30px;
+
+    button {
+        width: 64px;
+        height: 31px;
+        top: 29px;
+        left: 385.09px;
+        padding: 5px 12px 6px 12px;
+        gap: 10px;
+        border-radius: 8px 0px 0px 0px;
+        opacity: 0px;
+        background-color: #274C5B;
+        color: #fff;
+    }
+
+    .uma2 {
+        width: 100%;
+        height: 300px;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 1200px) {
+    .k-main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin: 70px 0;
+
+    }
+
+    .card .uma2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1017px) {
+    .k-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin: 70px 0;
+    align-items: center;
+    }
+
+    .card .uma2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 750px) {
+    .k-main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin: 70px 0;
+        text-align: center;
+
+    }
+
+    .card .uma2 {
+        width: 100%;
+    }
+}
+
+.uu-main {
+    background: url('Background\ \(4\).svg');
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    padding: 105px;
+}
+
+.ii-left {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    text-align: left;
+
+}
+
+.ll-right input {
+    width: 349px;
+    height: 80px;
+    gap: 0px;
+    border: 0;
+    border-radius: 16px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.ll-right button {
+    color: #fff;
+    background-color: #274C5B;
+    width: 220px;
+    height: 80px;
+    padding: 28px 47px 29px 47px;
+    gap: 10px;
+    border-radius: 16px 0px 0px 0px;
+    opacity: 0px;
+    border: 0;
+
+}
+
+@media (max-width: 1200px) {
+    .uu-main {
+        background: url('Background\ \(4\).svg');
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        padding: 105px;
+    }
+}
+
+.f-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #274C5B;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.cardu {
+    text-align: right;
+    margin: 0 20px;
+    padding: 0 50px;
+    border-right: 2px solid rgb(203, 201, 201);
+}
+
+.card2 {
+    img {
+        margin-top: 10px;
+    }
+
+    text-align: center;
+
+    p {
+        margin-top: 20px;
+    }
+}
+
+.card3 {
+    border-left: 2px solid rgb(203, 201, 201);
+    padding: 50px;
+}
+
+@media (max-width: 1000px) {
+    .f-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        color: #274C5B;
+        margin-top: 50px;
+        cursor: pointer;
+    }
+        .cardu {
+            text-align: right;
+            margin: 0 20px;
+            padding: 0 50px;
+            border-right: 2px solid rgb(203, 201, 201);
+        }
+
+        .card2 {
+            img {
+                margin-top: 10px;
+            }
+
+            text-align: center;
+
+            p {
+                margin-top: 20px;
+            }
+        }
+
+        .card3 {
+            border-left: 2px solid rgb(203, 201, 201);
+            padding: 50px;
+        }
+   
+}
+
+@media (max-width: 800px) {
+    .f-main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        color: #274C5B;
+        margin-top: 50px;
+        cursor: pointer;
+    }
+      
+        .card2 {
+            img {
+                margin-top: 10px;
+            }
+
+            text-align: center;
+
+            p {
+                margin-top: 20px;
+            }
+        }
+
+        .card3 {
+            border-left: 2px solid rgb(203, 201, 201);
+            padding: 50px;
+        }
+        .cardu {
+            text-align: right;
+            margin: 0 20px;
+            padding: 0 50px;
+            border-right: 2px solid rgb(203, 201, 201);
+        }
+    }
